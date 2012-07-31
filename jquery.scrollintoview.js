@@ -155,6 +155,9 @@
 					// when there's nothing to scroll, just call the "complete" function
 					$.isFunction(options.complete) && options.complete.call(scroller[0]);
 				}
+			} else {
+				// when there's nothing to scroll, just call the "complete" function
+				$.isFunction(options.complete) && options.complete.call(scroller[0]);
 			}
 
 			// return set back
